@@ -1,12 +1,15 @@
 import { formatError } from "./utils.js";
-import { setTimer } from "./timerCalc.js"
+import { setTimer } from "./timerCalc.js";
+
+import audio from "../assets/timer-bell.mp3";
+
 
 export const timerForm = document.forms.timer__form;
 
 const start = document.getElementById("start");
 const stop = document.getElementById("stop");
 const error = document.querySelector(".error");
-const ring = new Audio("./assets/timer-bell.mp3");
+const ring = new Audio(audio);
 
 start.addEventListener("click", startTime);
 stop.addEventListener("click", stopTime);

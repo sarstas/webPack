@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 10px;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 2rem;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}
+
+.visibility {
+  display: none;
+}
+
+.box-btn {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.btn {
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+
+.date-calc {
+  display: flex;
+  flex-direction: column;
+  margin: 5rem auto;
+  max-width: 70%;
+  height: 50vh;
+  border: 1px solid #857979;
+}
+.date-calc__title {
+  display: block;
+  font-size: 4rem;
+  margin: 5rem auto;
+}
+.date-calc__box {
+  margin: 0 auto;
+}
+.date-calc__label {
+  margin-left: 4rem;
+  margin-bottom: 2rem;
+}
+.date-calc__btn {
+  max-width: 50%;
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+}
+.date-calc__result {
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=style.css.map */

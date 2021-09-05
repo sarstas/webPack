@@ -26,14 +26,6 @@ module.exports = {
                     }
                 }
             },
-            // {
-            //     test: /\\.(png|jpe?g|gif|mp3)$/i,
-            //     loader: 'file-loader',
-            //     options: {
-            //         name: '[path][name].[ext]',
-            //     }
-            // }
-
         ]
     },
     plugins: [
@@ -44,7 +36,7 @@ module.exports = {
             filename: '[name].[contenthash].bundle.css'
         }),
         new CleanWebpackPlugin(),
-        // new BundleAnalyzerPlugin(),
+        // new BundleAnalyzerPlugin(),  // для анализа
     ]
 
 }
